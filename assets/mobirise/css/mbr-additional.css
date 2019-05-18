@@ -1582,7 +1582,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #f7ed4a;
+  background-color: #c4bc3b;
 }
 .cid-rqPJ9vKq3u button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2094,7 +2094,7 @@ body {
   height: 100%;
   padding: 30px 30px;
   color: #ffffff;
-  background-color: #55b4d4;
+  background-color: #b1a374;
   z-index: 1;
   margin: 0;
   text-align: center;
@@ -2478,8 +2478,8 @@ body {
 }
 .cid-rqanAzAe6n {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
+  padding-bottom: 45px;
+  background-color: #23292c;
 }
 .cid-rqanAzAe6n .row-links {
   width: 100%;
@@ -2553,4 +2553,7 @@ body {
 }
 .cid-rqanAzAe6n .media-container-row .row-copirayt p {
   width: 100%;
+}
+.cid-rqanAzAe6n foot-menu-item B {
+  color: #efefef;
 }
