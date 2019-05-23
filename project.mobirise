@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Antonio 2",
-    "currentPage": "contacto.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.0",
     "siteFonts": [],
-    "uniqCompNum": 45,
+    "uniqCompNum": 44,
     "versionPublish": "4.10.0",
     "favicon": "",
     "noImageResize": "",
@@ -734,7 +734,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/2-2000x1826.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -770,7 +770,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/3-1200x650.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
