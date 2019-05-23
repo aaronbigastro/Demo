@@ -2957,7 +2957,7 @@ body {
 .cid-rr1ThMHbSi {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rr1ThMHbSi .mbr-section-subtitle {
   color: #767676;
@@ -2968,8 +2968,8 @@ body {
   background-image: url("../../../assets/images/mbr-1920x1280.jpg");
 }
 .cid-rr2cekdvBB {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #efefef;
 }
 .cid-rr2cekdvBB P {
@@ -2978,13 +2978,41 @@ body {
 .cid-rr2csw2pYp {
   background-image: url("../../../assets/images/mbr-1-1920x1281.jpg");
 }
-.cid-rr2dYESX3h {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-rrjCregXPn {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #efefef;
 }
-.cid-rr2dYESX3h P {
+.cid-rrjCregXPn .counter-container {
   color: #767676;
+}
+.cid-rrjCregXPn .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rrjCregXPn .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rrjCregXPn .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rrjCregXPn .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #000000;
+  background: #c4bc3b;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .cid-rr2e8iqFmp {
   padding-top: 90px;
