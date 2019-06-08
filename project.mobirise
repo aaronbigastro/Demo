@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Antonio 2",
-    "currentPage": "policy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -716,7 +716,7 @@
             },
             "H2": {
               "color": "#ffffff",
-              "text-align": "right"
+              "text-align": "center"
             }
           },
           "_name": "slider1",
@@ -747,7 +747,7 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "¿Imaginas vivir en un mundo verde y sostenible?\r",
+                "title": "¿Imaginas vivir en un mundo verde y sostenible?\n",
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Elija entre la gran selección de bloques prediseñados más recientes: jumbotrons,  hero images, desplazamiento con paralaje, fondos con videos, menú de hamburguesa, encabezado fijo y más.",
@@ -765,7 +765,7 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "Responsable con el medio ambiente &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;",
+                "title": "Responsable con el medio ambiente",
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Diapositiva con fondo de video de youtube y superposición con color. El título y el texto están alineados a la izquierda.",
@@ -783,7 +783,7 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "EL MOMENTO HA LLEGADO",
+                "title": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EL MOMENTO HA LLEGADO",
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "Elija entre la gran selección de bloques prediseñados más recientes: jumbotrons,  hero images, desplazamiento con paralaje, fondos con videos, menú de hamburguesa, encabezado fijo y más.",
