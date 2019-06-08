@@ -747,11 +747,11 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "<b><i>ENERGÍA SOLAR FOTOVOLTAICA</i></b>",
+                "title": "<b><i>AUTOCONSUMO ENERGÉTICO</i></b>",
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "¿Imaginas vivir en un mundo verde y sostenible?",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"conocenos.html\" data-toolbar=\"-mbrBtnMove\">CONOCE VALCEL</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"proyectos.html\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; PROYECTOS &nbsp;</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"conocenos.html\" data-toolbar=\"-mbrBtnMove\">CONOCE VALCEL</a> ",
                 "overlayOpacity": "0.2"
               },
               {
