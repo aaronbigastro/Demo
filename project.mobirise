@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Antonio 2",
-    "currentPage": "info-cookies.html",
+    "currentPage": "cookies.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.0",
     "siteFonts": [],
-    "uniqCompNum": 46,
+    "uniqCompNum": 44,
     "versionPublish": "4.10.0",
     "favicon": "",
     "noImageResize": "",
@@ -738,7 +738,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/2-2000x1826.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -756,7 +756,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/4-991x558.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1436,7 +1436,7 @@
       "settings": {
         "meta_descr": "Conocénos",
         "title": "Conocénos",
-        "order": 7
+        "order": 1
       },
       "components": [
         {
@@ -2160,7 +2160,7 @@
       "settings": {
         "meta_descr": "Proyectos",
         "title": "Proyectos",
-        "order": 6
+        "order": 3
       },
       "components": [
         {
@@ -2975,7 +2975,7 @@
       "settings": {
         "meta_descr": "Cookies",
         "title": "Cookies",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -3429,13 +3429,13 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#c4bc3b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b>POLÍTICA DE COOKIES\n</b><div>La Web de Valcel Renovables S.L.  (en adelante la Web) utiliza Cookies. Las Cookies son ficheros enviados a un navegador por medio de un servidor web para registrar las actividades del Usuario en una web determinada. La primera finalidad de las Cookies es la de facilitar al usuario un acceso más rápido a los servicios seleccionados. Además, las Cookies personalizan los servicios que ofrece la Web, facilitando y ofreciendo a cada usuario información que es de su interés o que puede ser de su interés, en atención al uso que realiza de los Servicios.\n</div><div>\n</div><div>La Web utiliza Cookies para personalizar y facilitar al máximo la navegación del usuario. Las Cookies se asocian únicamente a un usuario anónimo y su ordenador y no proporcionan referencias que permitan deducir datos personales del usuario. El usuario podrá configurar su navegador para que notifique y rechace la instalación las Cookies enviadas por la Web, sin que ello perjudique la posibilidad del usuario de acceder a los contenidos de dicha web. Sin embargo, le hacemos notar que, en todo caso, la calidad de funcionamiento de la página Web puede disminuir.\n</div><div>\n</div><div>Si desea consultar más información sobre qué son las cookies, qué almacenan, cómo eliminarlas, desactivarlas, etc., le rogamos se dirija a <b><a href=\"info-cookies.html\">este enlace</a></b><a href=\"info-cookies.html\">.</a>\n</div><div>\n</div><div>Cookies utilizadas en este sitio web\n</div><div>Siguiendo las directrices de la Agencia Española de Protección de Datos procedemos a detallar el uso de cookies que hace esta web con el fin de informarle con la máxima exactitud posible.\n</div><div>\n</div><div>Este sitio web utiliza las siguientes cookies propias:\n</div><div>\n</div><div>Cookies de sesión, para garantizar que los usuarios que escriban comentarios en el blog sean humanos y no aplicaciones automatizadas. De esta forma se combate el spam.\n</div><div>Este sitio web utiliza las siguientes cookies de terceros:\n</div><div>\n</div><div>Google Analytics: Almacena cookies para poder elaborar estadísticas sobre el tráfico y volumen de visitas de esta web. Al utilizar este sitio web está consintiendo el tratamiento de información acerca de usted por Google. Por tanto, el ejercicio de cualquier derecho en este sentido deberá hacerlo comunicando directamente con Google.\n</div><div>HitSteps: Almacena cookies para elaborar estadísticas sobre el tráfico, origen y volumen de visitas de la web. Al utilizar este sitio web está consintiendo el tratamiento de información acerca de usted por HitSteps. Por tanto, el ejercicio de cualquier derecho en este sentido deberá hacerlo comunicando directamente con HitSteps.\n</div><div>Redes sociales: Cada red social utiliza sus propias cookies para que usted pueda pinchar en botones del tipo Me gusta o Compartir.\n</div><div>Desactivación o eliminación de cookies\n</div><div>En cualquier momento podrá ejercer su derecho de desactivación o eliminación de cookies de este sitio web. Estas acciones se realizan de forma diferente en función del navegador que esté usando. <b><a href=\"info-cookies.html\">Aquí le dejamos una guía rápida para los navegadores más populares.</a>\n</b></div><div>\n</div><div>Notas adicionales\n</div><div>Ni esta web ni sus representantes legales se hacen responsables ni del contenido ni de la veracidad de las políticas de privacidad que puedan tener los terceros mencionados en esta política de cookies.\n</div><div>Los navegadores web son las herramientas encargadas de almacenar las cookies y desde este lugar debe efectuar su derecho a eliminación o desactivación de las mismas. Ni esta web ni sus representantes legales pueden garantizar la correcta o incorrecta manipulación de las cookies por parte de los mencionados navegadores.\n</div><div>En algunos casos es necesario instalar cookies para que el navegador no olvide su decisión de no aceptación de las mismas.\n</div><div>En el caso de las cookies de Google Analytics, esta empresa almacena las cookies en servidores ubicados en Estados Unidos y se compromete a no compartirla con terceros, excepto en los casos en los que sea necesario para el funcionamiento del sistema o cuando la ley obligue a tal efecto. Según Google no guarda su dirección IP. Google Inc. es una compañía adherida al Acuerdo de Puerto Seguro que garantiza que todos los datos transferidos serán tratados con un nivel de protección acorde a la normativa europea. Puede consultar información detallada a este respecto en este enlace. Si desea información sobre el uso que Google da a las cookies <b><a href=\"https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es&csw=1\" target=\"_blank\">le adjuntamos este otro enlace.</a>\n</b></div><div>Para cualquier duda o consulta acerca de esta política de cookies no dude en comunicarse con nosotros a través de la sección de contacto.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#c4bc3b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b>POLÍTICA DE COOKIES\n</b><div>La Web de Valcel Renovables S.L.  (en adelante la Web) utiliza Cookies. Las Cookies son ficheros enviados a un navegador por medio de un servidor web para registrar las actividades del Usuario en una web determinada. La primera finalidad de las Cookies es la de facilitar al usuario un acceso más rápido a los servicios seleccionados. Además, las Cookies personalizan los servicios que ofrece la Web, facilitando y ofreciendo a cada usuario información que es de su interés o que puede ser de su interés, en atención al uso que realiza de los Servicios.\n</div><div>\n</div><div>La Web utiliza Cookies para personalizar y facilitar al máximo la navegación del usuario. Las Cookies se asocian únicamente a un usuario anónimo y su ordenador y no proporcionan referencias que permitan deducir datos personales del usuario. El usuario podrá configurar su navegador para que notifique y rechace la instalación las Cookies enviadas por la Web, sin que ello perjudique la posibilidad del usuario de acceder a los contenidos de dicha web. Sin embargo, le hacemos notar que, en todo caso, la calidad de funcionamiento de la página Web puede disminuir.\n</div><div>\n</div><div>Si desea consultar más información sobre qué son las cookies, qué almacenan, cómo eliminarlas, desactivarlas, etc., le rogamos se dirija a <b><a href=\"cookies2.html\">este enlace</a></b><a href=\"cookies2.html\">.</a>\n</div><div>\n</div><div>Cookies utilizadas en este sitio web\n</div><div>Siguiendo las directrices de la Agencia Española de Protección de Datos procedemos a detallar el uso de cookies que hace esta web con el fin de informarle con la máxima exactitud posible.\n</div><div>\n</div><div>Este sitio web utiliza las siguientes cookies propias:\n</div><div>\n</div><div>Cookies de sesión, para garantizar que los usuarios que escriban comentarios en el blog sean humanos y no aplicaciones automatizadas. De esta forma se combate el spam.\n</div><div>Este sitio web utiliza las siguientes cookies de terceros:\n</div><div>\n</div><div>Google Analytics: Almacena cookies para poder elaborar estadísticas sobre el tráfico y volumen de visitas de esta web. Al utilizar este sitio web está consintiendo el tratamiento de información acerca de usted por Google. Por tanto, el ejercicio de cualquier derecho en este sentido deberá hacerlo comunicando directamente con Google.\n</div><div>HitSteps: Almacena cookies para elaborar estadísticas sobre el tráfico, origen y volumen de visitas de la web. Al utilizar este sitio web está consintiendo el tratamiento de información acerca de usted por HitSteps. Por tanto, el ejercicio de cualquier derecho en este sentido deberá hacerlo comunicando directamente con HitSteps.\n</div><div>Redes sociales: Cada red social utiliza sus propias cookies para que usted pueda pinchar en botones del tipo Me gusta o Compartir.\n</div><div>Desactivación o eliminación de cookies\n</div><div>En cualquier momento podrá ejercer su derecho de desactivación o eliminación de cookies de este sitio web. Estas acciones se realizan de forma diferente en función del navegador que esté usando. <b><a href=\"cookies2.html\">Aquí le dejamos una guía rápida para los navegadores más populares.</a>\n</b></div><div>\n</div><div>Notas adicionales\n</div><div>Ni esta web ni sus representantes legales se hacen responsables ni del contenido ni de la veracidad de las políticas de privacidad que puedan tener los terceros mencionados en esta política de cookies.\n</div><div>Los navegadores web son las herramientas encargadas de almacenar las cookies y desde este lugar debe efectuar su derecho a eliminación o desactivación de las mismas. Ni esta web ni sus representantes legales pueden garantizar la correcta o incorrecta manipulación de las cookies por parte de los mencionados navegadores.\n</div><div>En algunos casos es necesario instalar cookies para que el navegador no olvide su decisión de no aceptación de las mismas.\n</div><div>En el caso de las cookies de Google Analytics, esta empresa almacena las cookies en servidores ubicados en Estados Unidos y se compromete a no compartirla con terceros, excepto en los casos en los que sea necesario para el funcionamiento del sistema o cuando la ley obligue a tal efecto. Según Google no guarda su dirección IP. Google Inc. es una compañía adherida al Acuerdo de Puerto Seguro que garantiza que todos los datos transferidos serán tratados con un nivel de protección acorde a la normativa europea. Puede consultar información detallada a este respecto en este enlace. Si desea información sobre el uso que Google da a las cookies <b><a href=\"https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es&csw=1\" target=\"_blank\">le adjuntamos este otro enlace.</a>\n</b></div><div>Para cualquier duda o consulta acerca de esta política de cookies no dude en comunicarse con nosotros a través de la sección de contacto.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rsOpHVx3ri",
+          "_anchor": "content9-19",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-19"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3538,7 +3538,7 @@
       "settings": {
         "meta_descr": "Politica privacidad",
         "title": "Politica privacidad",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -4092,7 +4092,7 @@
       "settings": {
         "meta_descr": "Contacto",
         "title": "Contacto",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -4657,7 +4657,7 @@
       "settings": {
         "meta_descr": "Servicios",
         "title": "Servicios",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -5407,11 +5407,11 @@
         }
       ]
     },
-    "info-cookies.html": {
+    "cookies2.html": {
       "settings": {
         "meta_descr": "Más información Cookies",
         "title": "Más información Cookies",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
