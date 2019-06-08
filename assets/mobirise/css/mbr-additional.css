@@ -4606,13 +4606,29 @@ body {
 .cid-rqPJ9vKq3u .dropdown-item:hover {
   color: #c4bc3b !important;
 }
-.cid-rqQtPeJFpJ {
+.cid-rsOymuBKqy {
   padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
-.cid-rqQtPeJFpJ P {
-  color: #767676;
+.cid-rsOymuBKqy .line {
+  background-color: #c4bc3b;
+  color: #c4bc3b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rsOymuBKqy .section-text {
+  padding: 2rem 0;
+  text-align: left;
+}
+.cid-rsOymuBKqy .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rsOymuBKqy .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-rqanAzAe6n {
   padding-top: 30px;

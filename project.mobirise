@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Antonio 2",
-    "currentPage": "cookies.html",
+    "currentPage": "policy.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.0",
     "siteFonts": [],
-    "uniqCompNum": 44,
+    "uniqCompNum": 45,
     "versionPublish": "4.10.0",
     "favicon": "",
     "noImageResize": "",
@@ -3968,24 +3968,35 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".inner-container": {
+              "margin": "0 auto"
             },
-            "P": {
-              "color": "#767676"
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
             }
           },
-          "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL WIDTH INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "rqQtPeJFpJ",
-          "_anchor": "header16-1d",
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#c4bc3b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b>RESPONSABLE DEL TRATAMIENTO DE SUS DATOS\n</b><div>Denominación Social: Valcel Renovables SL\n</div><div>Nombre Comercial: Valcel Renovables</div><div>Domicilio Social: Polígono Industrial Apatel – 03380 – Bigastro</div><div>CIF / NIF: B12345678\n</div><div>Teléfono: (+34) 605 53 19 34</div><div>e-Mail: valcelrenovables@gmail.com\n</div><div>Inscrita en el Registro Mercantil de Alicante T 1234, L 1234, F 12, S 1, H PO 1234\n</div><div>Nombre de dominio: valcel.es\n</div><div>Autorización administrativa: Antonio Celedonio</div><div>\n</div><div><b>¿Con qué finalidad tratamos sus datos personales?\n</b></div><div>En Valcel Renovables S.L. tratamos la información que nos facilita con la finalidad de gestionar la relación contractual que nos une, gestionar el envío de la información que nos solicita, facilitar a los interesados ofertas de nuestros servicios y/o productos de su interés.\n</div><div>\n</div><div><b>¿Por cuánto tiempo conservaremos sus datos personales?</b>\n</div><div>Sus datos, serán conservados el tiempo mínimo necesario para la correcta prestación del servicio ofrecido así como para atender las responsabilidades que se pudieran derivar del mismo y de cualquier otra exigencia legal.\n</div><div>\n</div><div><b>¿Cuál es la legitimación para el tratamiento de sus datos?\n</b></div><div>La base legal para el tratamiento de sus datos personales puede ser la ejecución de una relación contractual potencial y/o suscrita, el interés legítimo, la habilitación legal y/o el consentimiento del propio interesado. Los datos que le solicitamos son adecuados, pertinentes y estrictamente necesarios y en ningún caso está obligado a facilitárnoslos, pero su no comunicación podrá afectar a la finalidad del servicio o la imposibilidad de prestarlo.\n</div><div>\n</div><div><b>¿A qué destinatarios se comunicarán sus datos?\n</b></div><div>Valcel Renovables S.L. no comunicará sus datos a ningún tercero, salvo que se informe de ello expresamente\n</div><div>\n</div><div><b>¿Cuáles son sus derechos cuando nos facilita sus datos?\n</b></div><div>Los derechos de protección de datos de los que son titulares los interesados son:\n</div><div> Derecho a solicitar el acceso a los datos personales relativos al interesado\n</div><div> Derecho de rectificación o supresión\n</div><div> Derecho de oposición\n</div><div> Derecho a solicitar la limitación de su tratamiento\n</div><div> Derecho a la portabilidad de los datos\n</div><div>\n</div><div>Los titulares de los datos personales obtenidos, podrán ejercer sus derechos de protección de datos personales dirigiendo una comunicación por escrito al domicilio social de Valcel Renovables S.L. o al correo electrónico habilitado a tal efecto, valcelrenovables@gmail.com, incluyendo en ambos casos fotocopia de su DNI u otro documento de identificación equivalente.\n</div><div>Modelos, formularios y más información disponible sobre sus derechos en la página web de la autoridad de control nacional, Agencia Española de Protección de Datos, en adelante, AEPD, www.agpd.es.\n</div><div>\n</div><div><b>¿Puedo retirar el consentimiento?\n</b></div><div>Usted tiene la posibilidad y el derecho a retirar el consentimiento para cualquiera finalidad específica otorgada en su momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.\n</div><div>\n</div><div><b>¿Dónde puedo reclamar en caso de que considere que no se tratan mis datos correctamente?\n</b></div><div>Si algún interesado considera que sus datos no son tratados correctamente por Valcel Renovables S.L. puede dirigir sus reclamaciones al correo valcelrenovables@gmail.com o a la autoridad de protección de datos que corresponda, siendo la AEPD la indicada en el territorio nacional, www.agpd.es\n</div><div>Seguridad y actualización de sus datos personales\n</div><div>Con el objetivo de salvaguardar la seguridad de sus datos personales, le informamos que Valcel Renovables S.L. ha adoptado todas las medidas de índole técnica y organizativa necesarias para garantizar la seguridad de los datos personales suministrados. Todo ello para evitar su alteración, pérdida, y/o tratamientos o accesos no autorizados, tal como exige la normativa, si bien la seguridad absoluta no existe.\n</div><div>Es importante que, para que podamos mantener sus datos personales actualizados, nos informe siempre que se produzca una modificación de los mismos.\n</div><div>Confidencialidad\n</div><div>Valcel Renovables S.L. le informa que sus datos serán tratados con el máximo celo y confidencialidad por todo el personal que intervenga en cualquiera de las fases del tratamiento. No cederemos ni comunicaremos a ningún tercero sus datos, excepto en los casos legalmente previstos, o salvo que el interesado nos hubiera autorizado expresamente.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-18",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rsOymuBKqy",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
