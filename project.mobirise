@@ -50,14 +50,14 @@
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
+      "colorBg": "#ffffff",
       "colorButton": "",
-      "colorLink": "#424a4d",
+      "colorLink": "#001689",
       "underlineLink": true,
-      "opacity": "99",
+      "opacity": "50",
       "opacityOverlay": "80",
       "text": "Al continuar navegando entendemos que acepta el uso de  <a href='cookies.html'>cookies</a>.",
-      "textButton": "Agree"
+      "textButton": "Aceptar"
     },
     "gdpr": {
       "colorText": "#a7a7a7",
@@ -66,8 +66,8 @@
       "text": "Sí, acepto la <a href='terms.html'></a> <a href='policy.html'>Política de privacidad</a> de este sitio web."
     },
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": false,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "imageResize": true,
     "sitemapSwitcher": false
