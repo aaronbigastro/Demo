@@ -22,7 +22,7 @@
         "display7Font": "Poppins",
         "display7Size": 1,
         "display4Font": "Poppins",
-        "display4Size": 1,
+        "display4Size": "0.9",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
