@@ -13,15 +13,15 @@
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Rubik",
+        "display1Font": "Poppins",
         "display1Size": 4.25,
-        "display2Font": "Rubik",
+        "display2Font": "Poppins",
         "display2Size": 3,
-        "display5Font": "Rubik",
+        "display5Font": "Poppins",
         "display5Size": 1.5,
-        "display7Font": "Rubik",
+        "display7Font": "Poppins",
         "display7Size": 1,
-        "display4Font": "Rubik",
+        "display4Font": "Poppins",
         "display4Size": 1,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
@@ -43,6 +43,11 @@
         "css": "'Rubik', sans-serif",
         "name": "Rubik",
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      },
+      {
+        "css": "'Poppins', sans-serif",
+        "name": "Poppins",
+        "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
     "uniqCompNum": 45,
