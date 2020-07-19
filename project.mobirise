@@ -69,7 +69,7 @@
     },
     "gdpr": {
       "colorText": "#001689",
-      "colorLink": "#ffffff",
+      "colorLink": "#001689",
       "underlineLink": true,
       "text": "Sí, acepto la <a href='terms.html'></a> <a href='policy.html'>Política de privacidad</a> de este sitio web."
     },
