@@ -57,7 +57,7 @@
     "siteUrl": false,
     "cookiesAlert": {
       "customDialogSelector": false,
-      "colorText": "#f5b335",
+      "colorText": "#23292c",
       "colorBg": "#ffffff",
       "colorButton": "",
       "colorLink": "#001689",
